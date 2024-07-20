@@ -19,7 +19,8 @@ footer {
 
 .header,
 .featured,
-footer {
+footer,
+a {
     background-color: #1F2937;
     color: aliceblue;
 }
@@ -28,7 +29,7 @@ ul {
     display: flex;
     list-style: none;
     padding: 0;
-    gap: 10px;
+    gap: 30px;
 }
 
 .quote {
@@ -55,10 +56,13 @@ ul {
 .rando-img {
     border:2px #3882F6 solid;
     border-radius: 15%;
+    max-width: 150px;
 }
 
 .info {
     flex-direction: column;
+    height: 400px;
+    justify-content: space-around;
 }
 
 .info-boxes {
@@ -88,4 +92,8 @@ button {
 
 .navigation {
     flex: 1 0 auto:
+}
+
+a {
+    text-decoration: none;
 }
