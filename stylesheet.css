@@ -45,6 +45,7 @@ h5 {
 
 .thor {
     margin: 0;
+    font-weight: lighter;
 }
 
 .featured {
@@ -79,7 +80,16 @@ h5 {
     text-align: center;
     gap: 10px;
     align-items: center;
+    justify-content: space-evenly;
     flex-wrap: nowrap;
+}
+
+.info h2 {
+    text-align: center;
+}
+
+.info-boxes p {
+    width: 200px;
 }
 
 button {
