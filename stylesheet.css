@@ -7,22 +7,13 @@ body {
     padding: 0;
 }
 
-.header,
-.featured, 
-.info,
-.info-boxes, 
-.cta, 
-footer {
+.header, .featured, .info, .info-boxes, .cta, footer {
     display: flex;
     padding: 20px;
     justify-content: center;
 }
 
-.header,
-.featured,
-footer,
-a, 
-.cta-box {
+.header, .featured, footer, a, .cta-box {
     background-color: #1F2937;
     color: aliceblue;
 }
@@ -37,12 +28,29 @@ ul {
 .quote {
     background-color: #E5E7EB;
     font-size: 36px;
-    padding: 20px;
+    padding: 20px 150px 20px;
+}
+
+.subquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h5 {
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.thor {
+    margin: 0;
 }
 
 .featured {
     justify-content: center;
 }
+
 .image-info {
     width: 300px;
     display: flex;
@@ -79,7 +87,7 @@ button {
     color: aliceblue;
     width: 100px;
     height: 30px;
-    border-radius: 15%;
+    border-radius: 4px;
     border-color: transparent;
 }
 
@@ -105,15 +113,13 @@ a {
     width: 70%;
     min-width: 400px;
     background-color: #3882F6;
-    justify-content: center;
+    justify-content: space-around;
     padding: 20px;
+    border-radius: 8px;
+
 }
 
 .cta-box button {
     border-color: aliceblue;
-
-}
-
-h2 {
-    text-align: center;
+    align-self: center;
 }
