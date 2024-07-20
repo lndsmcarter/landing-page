@@ -11,6 +11,7 @@ body {
     display: flex;
     padding: 20px;
     justify-content: center;
+    align-items: center;
 }
 
 .header, .featured, footer, a, .cta-box {
@@ -37,19 +38,25 @@ ul {
     justify-content: center;
 }
 
+h5, .thor {
+    margin: 10px 0px;
+    align-self: center;
+    width: 550px;
+}
+
 h5 {
     text-align: right;
     font-size: 18px;
-    margin: 0px;
 }
 
 .thor {
-    margin: 0;
     font-weight: lighter;
+    font-size: 30px;
 }
 
 .featured {
     justify-content: center;
+    gap: 30px;
 }
 
 .image-info {
@@ -57,6 +64,10 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.image-info p {
+    text-align: justify;
 }
 
 .hero-img {
@@ -133,3 +144,5 @@ a {
     border-color: aliceblue;
     align-self: center;
 }
+
+
